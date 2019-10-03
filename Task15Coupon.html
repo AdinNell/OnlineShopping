@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coupon Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Task15Coupon.css">
+</head>
+<body>
+        <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Task15Catalogue.html">Catalogue</a></li>
+                <li><a href="Task15Cart.html">Cart</a></li>
+</ul>
+    <h1>Delivery Coupon</h1>
+    <div class="description">Hover over the ticket to reveal the coupon code</div>
+
+    <section class="couponContainer">
+      <section class="ticketHolder noFloat"> 
+        <div class="coupon">
+          <div class="inner">
+            <div class="savings">Save R200</div>
+            <div class="reveal">
+              <div>Coupon Code:</div>
+              <div class="couponCode">DGS</div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </section> 
+      <div class="clear"></div>
+    </section>
+<br>
+    <div>
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="email">E-mail</label>
+              <input type="text" id="email" name="email" placeholder="Enter your e-mail..">
+
+              <label for="address">Coupon Code</label>
+              <input type="text" id="code" name="code" placeholder="Enter your coupon code..">
+            </form>
+          </div>
+          <br>
+    	<button id="discount">Click here to apply for a discount</button>
+    <script type="text/javascript" src="Task15Coupon.js"></script>
+
+</body>
+</html>

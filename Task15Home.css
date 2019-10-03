@@ -1,0 +1,51 @@
+/* Customising the nav bar from lines 2 - 29  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+  
+  li a:hover {
+    background-color: rgb(43, 158, 173);
+    color: white;
+  }
+
+  h1{
+    background-color: white;
+  }
+  
+  /* Customising main phrase */
+  .main{
+    background-color: black;
+    color: white;
+    width: 300px;
+    border: 15px solid rgb(43, 158, 173);
+    padding: 50px;
+    margin:auto;
+    text-align: center;
+    font-size: 20px;
+  }
+
+/* Customising button  */
+  .ShopNow{
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-color:  rgb(43, 158, 173);
+    font-size: 50px;
+    font-weight: 500;
+  }
